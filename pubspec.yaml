@@ -1,0 +1,23 @@
+name: balance_scale_test
+description: Runtime-controlled Lottie balance scale test.
+publish_to: "none"
+
+environment:
+  sdk: ">=3.13.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  lottie: ^3.5.1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/lottie/balance_scale_runtime.json
+    - assets/lottie/ball.png
+    - assets/lottie/scale_static.png
+    - assets/lottie/scale_beam.png
+    - assets/lottie/scale_left.png
+    - assets/lottie/scale_right.png
+    - assets/lottie/scale_front_left.png
+    - assets/lottie/scale_front_right.png
